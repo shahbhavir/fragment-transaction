@@ -5,11 +5,13 @@
 
 Imagine you have 3 Fragments
 
-[1] [2] [3]
+(1) (2) (3)
 
-I want the user to be able to navigate [1] > [2] > [3] but on the way back (pressing back button) [3] > [1].
+I want the user to be able to navigate (1) > (2) > (3) but on the way back (pressing back button) (3) > (1).
 
-Question Link: http://stackoverflow.com/questions/12529499/problems-with-android-fragment-back-stack
+
+
+[[Question Link](http://stackoverflow.com/questions/12529499/problems-with-android-fragment-back-stack)]
 
 
 
