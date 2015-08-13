@@ -1,4 +1,4 @@
-package com.shahbhavir.app.testapplication;
+package com.shahbhavir.app.FragmentTransaction;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class AFragment extends android.support.v4.app.Fragment {
+public class BFragment extends android.support.v4.app.Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -23,11 +23,11 @@ public class AFragment extends android.support.v4.app.Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment AFragment.
+     * @return A new instance of fragment BFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static AFragment newInstance(String param1, String param2) {
-        AFragment fragment = new AFragment();
+    public static BFragment newInstance(String param1, String param2) {
+        BFragment fragment = new BFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -35,7 +35,7 @@ public class AFragment extends android.support.v4.app.Fragment {
         return fragment;
     }
 
-    public AFragment() {
+    public BFragment() {
         // Required empty public constructor
     }
 
@@ -52,7 +52,7 @@ public class AFragment extends android.support.v4.app.Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_a, container, false);
+        return inflater.inflate(R.layout.fragment_b, container, false);
     }
 
 
@@ -65,5 +65,6 @@ public class AFragment extends android.support.v4.app.Fragment {
     public void onDetach() {
         super.onDetach();
     }
+
 
 }

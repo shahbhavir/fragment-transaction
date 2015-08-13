@@ -1,4 +1,4 @@
-package com.shahbhavir.app.testapplication;
+package com.shahbhavir.app.FragmentTransaction;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
